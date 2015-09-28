@@ -1,0 +1,25 @@
+<html ng-app="phreelance">
+  <head>
+    <title>Phreelance</title>
+    <script src="lib/angular.js"></script>
+    <script src="lib/angular-ui-router.js"></script>
+    <script src="app.js"></script>
+    <!-- // <script src="https://code.jquery.com/jquery-1.11.3.js" type="text/javascript"></script> -->
+    <script src="controllers/AnimateController.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="http://malsup.github.com/jquery.cycle2.js"></script>
+    <!-- // <script src="directives/MyDirectives.js"></script> -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div ui-view="header"></div>
+    </div>
+
+    <div class="container">
+      <div ui-view="body"></div>
+
+    </div>
+  </body>
+</html>

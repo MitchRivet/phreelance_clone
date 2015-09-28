@@ -1,0 +1,36 @@
+.navbar-nav {
+
+padding-right: 225px;
+}
+
+.navbar-header {
+  padding-left: 225px;
+}
+
+.navbar {
+  font-size: 200%;
+  background-color: white;
+}
+
+.btn {
+  margin-top: 10px;
+}
+
+.container {
+  padding-top: 25px;
+}
+
+/*.default{
+    opacity: 1;
+}
+
+.fade{
+  -webkit-transition: opacity 2s;
+    transition: opacity 2s;
+    opacity: 0;
+}*/
+
+/*#picOne, #picTwo {
+position:absolute;
+display: none;
+}*/
